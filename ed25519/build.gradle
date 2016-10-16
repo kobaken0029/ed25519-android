@@ -1,18 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
-
-def repo = new File(rootDir, "repository")
-
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository url: "file://${repo.absolutePath}"
-            pom.version = '1.0.0'
-            pom.groupId = 'click.kobaken'
-            pom.artifactId = 'ed25519-android'
-        }
-    }
-}
 
 android {
     compileSdkVersion 24

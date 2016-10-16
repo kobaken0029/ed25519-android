@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import com.kobaken0029.ed25519.Ed25519;
 
-import kobaken.click.ed25519android.R;
-
 
 public class MainActivity extends AppCompatActivity {
 

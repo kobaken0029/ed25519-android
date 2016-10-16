@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "kobaken.click.ed25519android"
+        applicationId "click.kobaken.ed25519android"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1

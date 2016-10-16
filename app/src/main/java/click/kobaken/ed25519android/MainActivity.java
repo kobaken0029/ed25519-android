@@ -1,4 +1,4 @@
-package kobaken.click.ed25519android;
+package click.kobaken.ed25519android;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,6 +8,8 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.kobaken0029.ed25519.Ed25519;
+
+import kobaken.click.ed25519android.R;
 
 
 public class MainActivity extends AppCompatActivity {

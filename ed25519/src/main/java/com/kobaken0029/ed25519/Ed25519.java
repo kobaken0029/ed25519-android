@@ -22,7 +22,7 @@ public class Ed25519 {
     }
 
     public static String sign(String message, KeyPair keyPair) {
-        return Signature(message, keyPair.getPublicKey(), keyPair.getPrivateKey());
+        return Signature(message, keyPair.getPrivateKey(), keyPair.getPublicKey());
     }
 
     public static boolean verify(String signature, String message, String publicKey) {
@@ -30,8 +30,8 @@ public class Ed25519 {
     }
 
     public static class KeyPair {
-        private String publicKey;
-        private String privateKey;
+        private final String publicKey;
+        private final String privateKey;
 
         public KeyPair(String publicKey, String privateKey) {
             this.publicKey = publicKey;

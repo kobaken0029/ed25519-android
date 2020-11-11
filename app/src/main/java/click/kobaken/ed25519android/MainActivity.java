@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
             String message = "Hello Ed25519-Android!";
             String signature = Ed25519.sign(message, keyPair);
-            boolean verify = Ed25519.verify(signature, message, keyPair.getPrivateKey());
+            boolean verify = Ed25519.verify(signature, message, keyPair.getPublicKey());
 
             TextView t = (TextView) findViewById(R.id.text);
             t.setText(keyPair.getPublicKey());

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ed25519Android.iml" filepath="$PROJECT_DIR$/Ed25519Android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ed25519/ed25519.iml" filepath="$PROJECT_DIR$/ed25519/ed25519.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ed25519-android.iml" filepath="$PROJECT_DIR$/.idea/ed25519-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ed25519-android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ed25519-android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ed25519/ed25519-android.ed25519.iml" filepath="$PROJECT_DIR$/.idea/modules/ed25519/ed25519-android.ed25519.iml" />
     </modules>
   </component>
 </project>
